@@ -23,7 +23,7 @@ class UserResource extends Resource
     {
         return $form
             ->schema([
-                //
+
             ]);
     }
 
@@ -31,7 +31,7 @@ class UserResource extends Resource
     {
         return $table
             ->columns([
-                
+
             ])
             ->filters([
                 //
@@ -40,7 +40,6 @@ class UserResource extends Resource
                 Tables\Actions\EditAction::make(),
             ])
             ->bulkActions([
-                Tables\Actions\DeleteBulkAction::make(),
             ]);
     }
 
